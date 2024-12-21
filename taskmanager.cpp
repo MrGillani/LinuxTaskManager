@@ -19,6 +19,7 @@ int main() {
     int pid;
 
     while (true) {
+
         cout << "\nCommand Line Task Manager\n";
         cout << "1. Display Running Processes\n";
         cout << "2. Kill Process by PID\n";
@@ -40,7 +41,7 @@ int main() {
                 cout << "Exiting...\n";
                 return 0;
             default:
-                cout << "Invalid choice, please try again.\n";
+                cout << " You enter the wrong choice,  try again.\n";
         }
     }
 
